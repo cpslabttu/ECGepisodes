@@ -173,5 +173,4 @@ sigmoid_svc100.fit(X_train,y_train)
 y_pred=sigmoid_svc100.predict(X_test)
 # compute and print accuracy score
 print('Model accuracy score: {0:0.4f}'. format(accuracy_score(y_test, y_pred)))
-print("I Hua")
 
